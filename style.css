@@ -370,7 +370,7 @@ svg circle:nth-child(2) {
 }
 .about {
   width: 85%;
-  min-height: 100vh;
+  min-height: fit-content;
   background-color: rgba(0, 0, 0, 0.8);
   margin: 50px 0;
   padding: 20px;
