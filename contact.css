@@ -4,7 +4,7 @@
 }
 .contact_container{
     background-color: #1b1b1b;
-    padding: 4rem;
+    padding: 3rem;
     display: grid;
     grid-template-columns: 40% 60%;
     gap: 4rem;
@@ -13,7 +13,7 @@
 }
 .contact_aside{
     background-color: #000;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 1rem;
     position: relative;
     bottom: 10rem;
@@ -80,25 +80,39 @@ input,textarea{
 }
 
 @media screen and (max-width:1024px){
-    .contact_container{
-        gap: 1rem;
-        margin-top: 3rem;
-        height: auto;
-        padding: 1.5rem;
+    .contact{
+        width: 85%;
     }
     .contact_aside{
         width: auto;
         padding: 1.5rem;
         bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .contact_form{
         align-self: center;
-        margin-right: 1.5rem;
+        margin: auto;
+    }
+    .contact_form .btn{
+        margin-bottom: 20px;
+    }
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 60px;
+        padding: 0;
     }
 }
 
 
 @media screen and (max-width:600px){
+    .contact{
+        width: 98%;
+        margin-top: 120px;
+    }
     .contact_container{
         grid-template-columns: 1fr;
         gap: 3rem;
