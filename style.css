@@ -194,6 +194,16 @@ header {
   background-position: center;
   background-attachment: fixed;
 }
+#SoftwareProjects {
+  background-color: #1b1b1b;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  min-height: calc(100vh - 100px);
+}
+.Projects1 {
+  background-color: #333;
+}
 .projects {
   width: 85%;
   margin: auto;
@@ -202,15 +212,18 @@ header {
 .project {
   background-color: #1f242d;
   border-radius: 10px;
-  padding: 10px;
-  width: 370px;
-  height: 490px;
+  width: 350px;
+  height: 450px;
   margin: 20px auto;
+  tab-size: 18px;
+  border: 3px solid #000;
 }
 
 .project_image img {
-  width: 350px;
+  width: 100%;
   height: 210px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 3px solid #000;
 }
 .project p {
   text-align: center;
@@ -219,9 +232,10 @@ header {
 .project h1 {
   background-color: black;
   display: inline-block;
-  padding: 10px;
-  margin: 4px;
+  padding: 7px 20px;
+  margin: 5px;
   border-radius: 999px;
+  font-size: 20px;
 }
 .projects_container {
   display: flex;
@@ -232,6 +246,7 @@ header {
 }
 .work .project{
   height: min-content;
+  padding-top: 10px;
 }
 svg {
   position: relative;
@@ -421,16 +436,6 @@ footer ul li a:hover {
 }
 footer ul {
   justify-content: flex-start;
-}
-#SoftwareProjects {
-  background-color: #1b1b1b;
-  width: 100%;
-  margin: auto;
-  margin-top: 100px;
-  min-height: calc(100vh - 100px);
-}
-.Projects1 {
-  background-color: #333;
 }
 #Graphicprojects {
   background-color: #1b1b1b;
