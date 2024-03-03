@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 <h1 align="center">Hi , I'm Kareem Elbalshy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
-<!-- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&center=true&vCenter=true&width=600&lines=Computer+science+student;Flutter+Developer+Intern+@+Pure+Soft " alt="Typing SVG" /></a> </p> -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&center=true&vCenter=true&width=600&lines=Computer+science+student;MERN stack+Developer+Intern+@+Pure+Soft " alt="Typing SVG" /></a> </p> 
 
 
 - 🌱 I’m currently **MERN stack**
@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 ## Social Media
 <div align="center">
 <a href="https://github.com/kareemelbalshe"  style="display:block;">
-  <img align="center" style="background-color:white" src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' /> 
+  <img align="center" src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' /> 
 </a>
 
 <!--<a href="https://www.linkedin.com/in/%D9%90%D9%90ahmed-algzery/"  style="display:block">
