@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 <h1 align="center">Hi , I'm Kareem Elbalshy <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&center=true&vCenter=true&width=600&lines=Computer+science+student;MERN stack+Developer+Intern+@+Pure+Soft " alt="Typing SVG" /></a> </p> 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=24&pause=1000&center=true&vCenter=true&width=600&lines=Computer+science+student;MERN+stack+Developer" alt="Typing SVG" /></a> </p> 
 
 
 - 🌱 I’m currently **MERN stack**
@@ -30,23 +30,23 @@ Here are some ideas to get you started:
   <img align="center" src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' /> 
 </a>
 
-<!--<a href="https://www.linkedin.com/in/%D9%90%D9%90ahmed-algzery/"  style="display:block">
+<a href="https://www.linkedin.com/in/kareem-elbalshy-727516221/"  style="display:block">
   <img align="center"  src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40' /> 
 </a>
 
-<a href="https://www.facebook.com/profile.php?id=100014851561834"  style="display:block">
+<a href="https://www.facebook.com/profile.php?id=100022210471462"  style="display:block">
   <img align="center"  src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40' /> 
 </a>
 
-<a href="https://www.instagram.com/ahmed_algzery_/"  style="display:block">
+<a href="https://www.instagram.com/kareem_elbalshe/"  style="display:block">
   <img align="center" src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40' /> 
 </a>
 
-<a href="https://twitter.com/Ahmed__Algzery"  style="display:block">
+<a href="https://twitter.com/kareem_Elbalshe"  style="display:block">
   <img align="center"  src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40' /> 
 </a>
 
-<a href="https://twitter.com/Ahmed__Algzery"  style="display:block">
+<a href="https://kareemelbalshe.github.io/kareemelbalshe/"  style="display:block">
   <img align="center"  src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40' /> 
 </a>
 
@@ -54,27 +54,27 @@ Here are some ideas to get you started:
 
 
  ##  GitHub Profile Trophy
-<p align="center">&nbsp;<img src="https://github-profile-trophy.vercel.app/?username=ahmedalgzery" alt="Algzery" /></p>
+<p align="center">&nbsp;<img src="https://github-profile-trophy.vercel.app/?username=kareemelbalshe" alt="Elbalshy" /></p>
 
 
 ## 💻 GitHub Profile Stats
 
-<p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=ahmedalgzery&show_icons=true&count_private=true" alt="Algzery" /></p>
+<p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=kareemelbalshe&show_icons=true&count_private=true" alt="Elbalshy" /></p>
 
 ## Most Used Languages
 
 
-<p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedalgzery" alt="Algzery" /></p>
+<p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kareemelbalshe" alt="Elbalshy" /></p>
 
 
 ## 👉 Streak Stats
 
 
-<p align="center"><img alt="GitHub Readme Streak Stats" src="https://streak-stats.demolab.com/?user=ahmedalgzery" style="display: block;">
+<p align="center"><img alt="GitHub Readme Streak Stats" src="https://streak-stats.demolab.com/?user=kareemelbalshe" style="display: block;">
 
 
 
-
+<!--
 # Languages and Tools
 <p align="center">
 <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>
