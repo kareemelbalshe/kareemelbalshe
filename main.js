@@ -51,65 +51,104 @@ let skills = [
     {
         id: 1,
         name: "HTML",
-        value: 95
     },
     {
         id: 2,
         name: "CSS",
-        value: 90
     },
     {
         id: 3,
         name: "JS",
-        value: 80
     },
     {
         id: 4,
         name: "ReactJS",
-        value: 75
-    },
-    {
-        id: 5,
-        name: "C++",
-        value: 80
     },
     {
         id: 6,
-        name: "Github",
-        value: 85
+        name: "Noodjs",
     },
     {
         id: 7,
-        name: "Noodjs",
-        value: 60
+        name: "Redux",
     },
     {
         id: 8,
-        name: "Typescript",
-        value: 50
+        name: "Express",
     },
     {
         id: 9,
-        name: "Bootstrap",
-        value: 70
+        name: "TypeScript",
     },
     {
         id: 10,
-        name: "soft skills",
-        value: 85
+        name: "MongoDB",
     },
     {
         id: 11,
         name: "Photoshop",
-        value: 70
     },
     {
         id: 12,
+        name: "RESTful API",
+    },
+    {
+        id: 13,
+        name: "C++",
+        value: 80
+    },
+    {
+        id: 14,
+        name: "Data Structures and Algorithms",
+        value: 80
+    },
+    {
+        id: 15,
+        name: "Github",
+        value: 85
+    },
+    {
+        id: 16,
+        name: "Docker",
+        value: 85
+    },
+    {
+        id: 17,
+        name: "Redis",
+        value: 50
+    },
+    {
+        id: 18,
+        name: "Bootstrap",
+        value: 70
+    },
+    {
+        id: 19,
+        name: "Tailwind CSS",
+        value: 70
+    },
+    {
+        id: 20,
+        name: "soft skills",
+        value: 85
+    },
+    {
+        id: 21,
+        name: "OOP",
+        value: 70
+    },
+    {
+        id: 22,
         name: "problemSolving",
         value: 70
     },
     {
-        id: 13,
+        id: 23,
+        name: "JSON",
+        value: 70
+    },
+    {
+        id: 24,
         name: "Java",
         value: 70
     },
@@ -117,22 +156,9 @@ let skills = [
 
 let skill = document.getElementById("Skills")
 skills.map((s) => {
-    skill.innerHTML += `<div class="card" >
-    <div class="box">
-        <div class="percent">
-            <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle id="c${s.id}" cx="70" cy="70" r="70"></circle>
-            </svg>
-            <div class="number">
-                <h2>${s.value}<span>%</span></h2>
-            </div>
-            <div class="text">${s.name}</div>
-        </div>
-    </div>
+    skill.innerHTML +=
+        `<div class="card" >
+            <div class="text">${s.id} ${s.name}</div>
 </div>`
-    let id = "c" + s.id
-    document.getElementById(id).style.strokeDashoffset = `calc(440 - (440 * ${s.value}) /100)`
-    document.getElementById(id).style.stroke = "#0ef"
 })
 
