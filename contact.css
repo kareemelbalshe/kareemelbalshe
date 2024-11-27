@@ -68,6 +68,7 @@ input,textarea{
     border: none;
     outline: none;
     border-radius: 10px;
+    resize: none;
 }
 .contact_form .btn{
     width: max-content;

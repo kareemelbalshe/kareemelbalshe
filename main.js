@@ -40,7 +40,7 @@ const closeNav = () => {
 closeBtn.addEventListener('click', closeNav);
 
 const typed = new Typed(".multText", {
-    strings: ['frontend developer', 'Programmer', 'Designer', 'Problem Solver'],
+    strings: ['Frontend Developer', 'MERN Stack Developer', 'Programmer', 'Designer', 'Problem Solver'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
@@ -50,52 +50,55 @@ const typed = new Typed(".multText", {
 let skills = [
     {
         id: 1,
-        name: "HTML",
-    },
-    {
-        id: 2,
-        name: "CSS",
-    },
-    {
-        id: 3,
-        name: "JS",
-    },
-    {
-        id: 4,
         name: "ReactJS",
     },
     {
-        id: 6,
-        name: "Noodjs",
+        id: 2,
+        name: "JavaScript",
     },
     {
-        id: 7,
-        name: "Redux",
-    },
-    {
-        id: 8,
-        name: "Express",
-    },
-    {
-        id: 9,
+        id: 3,
         name: "TypeScript",
     },
     {
-        id: 10,
+        id: 4,
+        name: "NodeJS",
+    },
+    {
+        id: 5,
+        name: "NextJS",
+    },
+    {
+        id: 6,
+        name: "Redux",
+    },
+    {
+        id: 7,
+        name: "Express",
+    },
+    {
+        id: 8,
         name: "MongoDB",
     },
     {
+        id: 9,
+        name: "HTML",
+    },
+    {
+        id: 10,
+        name: "CSS",
+    },
+    {
         id: 11,
-        name: "Photoshop",
+        name: "Tailwind CSS",
     },
     {
         id: 12,
-        name: "RESTful API",
+        name: "Vite",
     },
     {
         id: 13,
-        name: "C++",
-        value: 80
+        name: "RESTful API",
     },
     {
         id: 14,
@@ -104,33 +107,30 @@ let skills = [
     },
     {
         id: 15,
-        name: "Github",
-        value: 85
+        name: "Git",
     },
     {
         id: 16,
+        name: "Github",
+    },
+    {
+        id: 17,
         name: "Docker",
         value: 85
     },
     {
-        id: 17,
+        id: 18,
         name: "Redis",
         value: 50
     },
     {
-        id: 18,
+        id: 19,
         name: "Bootstrap",
         value: 70
     },
     {
-        id: 19,
-        name: "Tailwind CSS",
-        value: 70
-    },
-    {
         id: 20,
-        name: "soft skills",
-        value: 85
+        name: "Postman",
     },
     {
         id: 21,
@@ -139,18 +139,22 @@ let skills = [
     },
     {
         id: 22,
-        name: "problemSolving",
+        name: "JSON",
         value: 70
     },
     {
         id: 23,
-        name: "JSON",
-        value: 70
+        name: "C++",
+        value: 80
     },
     {
         id: 24,
         name: "Java",
         value: 70
+    },
+    {
+        id: 25,
+        name: "PhotoShop",
     },
 ]
 
@@ -158,7 +162,76 @@ let skill = document.getElementById("Skills")
 skills.map((s) => {
     skill.innerHTML +=
         `<div class="card" >
-            <div class="text">${s.id} ${s.name}</div>
-</div>`
+            <div class="text">(${s.id})${" "} ${s.name}</div>
+        </div>`
+})
+let soft_skills = [
+    {
+        id: 1,
+        name: "Critical Thinking and Problem-Solving"
+    },
+    {
+        id: 2,
+        name: "Effective Communication"
+    },
+    {
+        id: 3,
+        name: "Teamwork and Collaboration"
+    },
+    {
+        id: 4,
+        name: "Time Management and Organization"
+    },
+    {
+        id: 5,
+        name: "Adaptability and Flexibility"
+    },
+    {
+        id: 6,
+        name: "Continuous Learning"
+    },
+    {
+        id: 7,
+        name: "Creativity and Innovation"
+    },
+    {
+        id: 8,
+        name: "Leadership"
+    },
+    {
+        id: 9,
+        name: "Strategic Thinking"
+    },
+    {
+        id: 10,
+        name: "Attention to Detail"
+    },
+    {
+        id: 11,
+        name: "Self-awareness and Emotional Intelligence"
+    },
+    {
+        id: 12,
+        name: "Negotiation and Persuasion"
+    },
+    {
+        id: 13,
+        name: "Conflict Resolution"
+    },
+    {
+        id: 14,
+        name: "Strategic Thinking"
+    },
+    {
+        id: 15,
+        name: "Resourcefulness and Organizational Skills"
+    },
+]
+let soft_skill = document.getElementById("SoftSkills")
+soft_skills.map((s) => {
+    soft_skill.innerHTML +=
+        `<div class="card" >
+            <div class="text">(${s.id})${" "} ${s.name}</div>
+        </div>`
 })
 

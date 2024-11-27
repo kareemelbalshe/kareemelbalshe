@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
   width: 9px;
@@ -143,13 +142,13 @@ header {
 .myImg {
   position: relative;
   width: min-content;
+  height: 558px;
 }
 .myImg img {
   width: 420px;
   border: solid;
   z-index: 80;
   position: sticky;
-  transition: 0.3s ease;
 }
 .myImg::after {
   content: "";
@@ -161,9 +160,13 @@ header {
   height: 400px;
   background-color: #0ef;
   border-radius: 5px;
+  transition: all 0.5s ease;
 }
-.myImg img:hover {
-  background-color: #0ef;
+.myImg:hover::after {
+  transform-origin: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
 }
 .social a {
   font-size: 20px;
@@ -279,7 +282,7 @@ svg circle:nth-child(2) {
     stroke: #0ef;
     stroke-dashoffset: calc(440 - (440 * 60) /100);
 } */
-#Skills {
+.Skills {
   display: flex;
   width: 80%;
   justify-content: space-between;
@@ -301,6 +304,7 @@ svg circle:nth-child(2) {
   overflow: hidden;
   transition: 0.3s;
   margin: 20px auto;
+  padding: 5px;
 }
 .card:hover {
   transform: translateY(-10px);
@@ -359,7 +363,7 @@ svg circle:nth-child(2) {
   color: #777;
   margin-top: 20px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: 0.5s;
