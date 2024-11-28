@@ -216,14 +216,6 @@ let soft_skills = [
     },
     {
         id: 13,
-        name: "Conflict Resolution"
-    },
-    {
-        id: 14,
-        name: "Strategic Thinking"
-    },
-    {
-        id: 15,
         name: "Resourcefulness and Organizational Skills"
     },
 ]
