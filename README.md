@@ -32,17 +32,11 @@
   </a>
 </div>
 
-## GitHub Profile Trophy
-<p align="center">&nbsp;<img src="https://github-profile-trophy.vercel.app/?username=kareemelbalshe" alt="Elbalshy" /></p>
-
 ## 💻 GitHub Profile Stats
 <p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=kareemelbalshe&show_icons=true&count_private=true" alt="Elbalshy" /></p>
 
 ## Most Used Languages
 <p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kareemelbalshe" alt="Elbalshy" /></p>
-
-## 👉 Streak Stats
-<p align="center"><img alt="GitHub Readme Streak Stats" src="https://streak-stats.demolab.com/?user=kareemelbalshe" style="display: block;"></p>
 
 ## 📋 Programming Languages:
 <p align="center">
