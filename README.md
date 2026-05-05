@@ -45,6 +45,26 @@
 
 ## 🚀 Featured Projects
 
+### ⌚ Watches E-Commerce
+> Full-stack e-commerce platform with multilingual support
+
+[![Repo](https://img.shields.io/badge/GitHub-watches--store-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/watches-store)
+[![Live](https://img.shields.io/badge/Live-Demo-00C7B7?style=flat-square&logo=vercel)](https://watches-store-rho.vercel.app)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+**Features:**
+- 🛒 Full product catalog with cart & wishlist
+- 🌍 Multi-language support (Arabic / English)
+- 🌙 Dark mode toggle
+- 📱 Fully responsive, built from Figma designs
+- 💳 Full-stack: React + TypeScript frontend + Node.js + MongoDB backend
+
+---
+
 ### 🏥 Healthcare Management System
 > Full-stack clinic & hospital management platform — patients, doctors & finance staff
 
@@ -84,26 +104,6 @@
 - 🔐 Secure JWT authentication
 - 🛡️ Admin dashboard for content moderation
 - 🐳 Dockerized with `docker-compose.yml`
-
----
-
-### ⌚ Watches E-Commerce
-> Full-stack e-commerce platform with multilingual support
-
-[![Repo](https://img.shields.io/badge/GitHub-watches--store-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/watches-store)
-[![Live](https://img.shields.io/badge/Live-Demo-00C7B7?style=flat-square&logo=vercel)](https://watches-store-rho.vercel.app)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-**Features:**
-- 🛒 Full product catalog with cart & wishlist
-- 🌍 Multi-language support (Arabic / English)
-- 🌙 Dark mode toggle
-- 📱 Fully responsive, built from Figma designs
-- 💳 Full-stack: React + TypeScript frontend + Node.js + MongoDB backend
 
 ---
 
@@ -216,22 +216,22 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kareemelbalshe&show_icons=true&count_private=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub Stats" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kareemelbalshe&theme=github_dark&hide_border=true&layout=compact&langs_count=8" alt="Top Languages" width="49%"/>
-</p>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kareemelbalshe&show_icons=true&count_private=true&theme=github_dark&hide_border=true&include_all_commits=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kareemelbalshe&theme=github_dark&hide_border=true&layout=compact&langs_count=8"/>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kareemelbalshe&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" width="60%"/>
-</p>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kareemelbalshe&theme=github-dark-blue&hide_border=true" height="180em"/>
+</div>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kareemelbalshe&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub Trophies"/>
-</p>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kareemelbalshe&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6"/>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kareemelbalshe&theme=github-dark&hide_border=true&area=true" alt="Contribution Graph" width="100%"/>
-</p>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kareemelbalshe&theme=github-dark&hide_border=true&area=true" width="100%"/>
+</div>
 
 ---
 
