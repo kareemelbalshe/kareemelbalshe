@@ -62,24 +62,6 @@
 
 ---
 
-### 🏢 Real Estate Lead Machine
-> Full-stack Next.js and Express monorepo for scraping Egyptian real estate leads, gating access with subscription logic, and managing manual payments.
-
-[![Repo](https://img.shields.io/badge/GitHub-Real--Estate--Lead--Machine-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/Real-Estate-Lead-Machine)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Express](https://img.shields.io/badge/-Express.js-339933?style=flat-square&logo=express&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-
-**Features:**
-- 🕵️‍♂️ **Lead Scraping Pipeline:** Automated Puppeteer/Playwright scripts running background scrapers for Egypt real estate websites.
-- 💳 **Manual Payment Gateways:** Custom screenshot upload and admin ledger dashboard to verify bank transfers/subscriptions.
-- ⚡ **Queue Workflows:** BullMQ processing image compression, notifications, and export exports.
-
----
-
 ### 🏠 Airbnb Clone — Full Stack
 > Scalable rental platform with real-time features and AI recommendations
 
