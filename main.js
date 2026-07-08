@@ -47,183 +47,68 @@ const typed = new Typed(".multText", {
     loop: true
 });
 
-let skills = [
-    {
-        id: 1,
-        name: "ReactJS",
-    },
-    {
-        id: 2,
-        name: "JavaScript",
-    },
-    {
-        id: 3,
-        name: "TypeScript",
-    },
-    {
-        id: 4,
-        name: "NodeJS",
-    },
-    {
-        id: 5,
-        name: "NextJS",
-    },
-    {
-        id: 6,
-        name: "Redux",
-    },
-    {
-        id: 7,
-        name: "Express",
-    },
-    {
-        id: 8,
-        name: "MongoDB",
-    },
-    {
-        id: 9,
-        name: "HTML",
-    },
-    {
-        id: 10,
-        name: "CSS",
-    },
-    {
-        id: 11,
-        name: "Tailwind CSS",
-    },
-    {
-        id: 12,
-        name: "Vite",
-    },
-    {
-        id: 13,
-        name: "RESTful API",
-    },
-    {
-        id: 14,
-        name: "Data Structures and Algorithms",
-        value: 80
-    },
-    {
-        id: 15,
-        name: "Git",
-    },
-    {
-        id: 16,
-        name: "Github",
-    },
-    {
-        id: 17,
-        name: "Docker",
-        value: 85
-    },
-    {
-        id: 18,
-        name: "Redis",
-        value: 50
-    },
-    {
-        id: 19,
-        name: "Bootstrap",
-        value: 70
-    },
-    {
-        id: 20,
-        name: "Postman",
-    },
-    {
-        id: 21,
-        name: "OOP",
-        value: 70
-    },
-    {
-        id: 22,
-        name: "JSON",
-        value: 70
-    },
-    {
-        id: 23,
-        name: "C++",
-        value: 80
-    },
-    {
-        id: 24,
-        name: "Java",
-        value: 70
-    },
-    {
-        id: 25,
-        name: "PhotoShop",
-    },
-]
+const technicalSkills = {
+    Frontend: ["React", "Next.js", "Angular", "TypeScript", "JavaScript", "Tailwind CSS", "Bootstrap", "Redux", "HTML", "CSS"],
+    Backend: ["Node.js", "Express.js", "ASP.NET Core", "Prisma", "Entity Framework", "GraphQL", "Redis"],
+    Databases: ["MongoDB", "PostgreSQL", "SQL Server", "Firebase"],
+    Tools: ["Git", "GitHub", "Docker", "Vite", "Linux", "Cloudinary"],
+    Concepts: ["OOP", "Data Structures & Algorithms", "RESTful APIs", "Clean Architecture"]
+};
 
-let skill = document.getElementById("Skills")
-skills.map((s) => {
-    skill.innerHTML +=
-        `<div class="card" >
-            <div class="text">(${s.id})${" "} ${s.name}</div>
-        </div>`
-})
-let soft_skills = [
-    {
-        id: 1,
-        name: "Critical Thinking and Problem-Solving"
-    },
-    {
-        id: 2,
-        name: "Effective Communication"
-    },
-    {
-        id: 3,
-        name: "Teamwork and Collaboration"
-    },
-    {
-        id: 4,
-        name: "Time Management and Organization"
-    },
-    {
-        id: 5,
-        name: "Adaptability and Flexibility"
-    },
-    {
-        id: 6,
-        name: "Continuous Learning"
-    },
-    {
-        id: 7,
-        name: "Creativity and Innovation"
-    },
-    {
-        id: 8,
-        name: "Leadership"
-    },
-    {
-        id: 9,
-        name: "Strategic Thinking"
-    },
-    {
-        id: 10,
-        name: "Attention to Detail"
-    },
-    {
-        id: 11,
-        name: "Self-awareness and Emotional Intelligence"
-    },
-    {
-        id: 12,
-        name: "Negotiation and Persuasion"
-    },
-    {
-        id: 13,
-        name: "Resourcefulness and Organizational Skills"
-    },
-]
-let soft_skill = document.getElementById("SoftSkills")
-soft_skills.map((s) => {
-    soft_skill.innerHTML +=
-        `<div class="card" >
-            <div class="text">(${s.id})${" "} ${s.name}</div>
-        </div>`
-})
+const softSkills = [
+    "Critical Thinking & Problem-Solving",
+    "Effective Communication",
+    "Teamwork & Collaboration",
+    "Time Management & Organization",
+    "Adaptability & Flexibility",
+    "Continuous Learning",
+    "Creativity & Innovation",
+    "Leadership",
+    "Strategic Thinking",
+    "Attention to Detail",
+    "Self-awareness & Emotional Intelligence",
+    "Negotiation & Persuasion",
+    "Resourcefulness"
+];
+
+// Technical Skills Render
+const skillsContainer = document.getElementById("Skills");
+if (skillsContainer) {
+    skillsContainer.innerHTML = "";
+    const categoryIcons = {
+        Frontend: "fas fa-desktop",
+        Backend: "fas fa-server",
+        Databases: "fas fa-database",
+        Tools: "fas fa-tools",
+        Concepts: "fas fa-brain"
+    };
+
+    for (const [category, items] of Object.entries(technicalSkills)) {
+        const icon = categoryIcons[category] || "fas fa-code";
+        const tagsHtml = items.map(item => `<span class="skill-tag">${item}</span>`).join("");
+        skillsContainer.innerHTML += `
+            <div class="skill-category-card">
+                <h3><i class="${icon}"></i> ${category}</h3>
+                <div class="skills-tags-container">
+                    ${tagsHtml}
+                </div>
+            </div>
+        `;
+    }
+}
+
+// Soft Skills Render
+const softSkillsContainer = document.getElementById("SoftSkills");
+if (softSkillsContainer) {
+    softSkillsContainer.innerHTML = "";
+    const tagsHtml = softSkills.map(item => `<span class="skill-tag soft">${item}</span>`).join("");
+    softSkillsContainer.innerHTML = `
+        <div class="skill-category-card soft-skills-card">
+            <h3><i class="fas fa-users"></i> Core Professional Attributes</h3>
+            <div class="skills-tags-container">
+                ${tagsHtml}
+            </div>
+        </div>
+    `;
+}
 

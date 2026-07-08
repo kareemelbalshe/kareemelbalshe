@@ -45,23 +45,6 @@
 
 ## 🚀 Featured Projects
 
-### 🛠️ .NET 9 Starter Kit
-> Production-grade, cloud-ready starter kit for building robust Web APIs and Blazor client apps with C# .NET 9.
-
-[![Repo](https://img.shields.io/badge/GitHub-dotnet--starter--kit-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/dotnet-starter-kit)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**Features:**
-- 🧱 **Clean & Modular Architecture:** Built using Domain-Driven Design (DDD) principles to organize business rules, entities, and data models cleanly.
-- 👥 **Multitenancy Support:** Out-of-the-box tenant isolation, custom tenant resolver (header, host, or query), and schema/data separation.
-- ⚡ **Batteries Included:** Built-in JWT authentication, refresh tokens, role-based authorization, request caching (Redis/In-Memory), and background workers.
-- 🐳 **Docker-Compose Ready:** Fully containerized setup for PostgreSQL, Redis, and local development configurations.
-
----
-
 ### 📝 Exam App (.NET & Angular)
 > Full-stack online examination and testing portal with a C# backend API and Angular dashboard.
 
@@ -76,6 +59,24 @@
 - 📝 **Exam Creator & Taker:** Interface for professors to create questions, set timers, and automatically grade student answers.
 - 📊 **Real-time Analytics:** Score tracking, progress tracking, and performance analysis charts on the student/professor dashboard.
 - 🔐 **Secure Execution:** Measures to block navigation and cheating triggers during exam execution.
+
+---
+
+### 🏢 Real Estate Lead Machine
+> Full-stack Next.js and Express monorepo for scraping Egyptian real estate leads, gating access with subscription logic, and managing manual payments.
+
+[![Repo](https://img.shields.io/badge/GitHub-Real--Estate--Lead--Machine-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/Real-Estate-Lead-Machine)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Express](https://img.shields.io/badge/-Express.js-339933?style=flat-square&logo=express&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+
+**Features:**
+- 🕵️‍♂️ **Lead Scraping Pipeline:** Automated Puppeteer/Playwright scripts running background scrapers for Egypt real estate websites.
+- 💳 **Manual Payment Gateways:** Custom screenshot upload and admin ledger dashboard to verify bank transfers/subscriptions.
+- ⚡ **Queue Workflows:** BullMQ processing image compression, notifications, and export exports.
 
 ---
 
