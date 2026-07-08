@@ -84,6 +84,7 @@
 ### 🤖 MenuFlowX (AI-Powered Restaurant Growth OS) `[🔒 Private Codebase]`
 > Multi-tenant SaaS for restaurant management, digital menu scanning, and AI-driven description generation.
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00C7B7?style=flat-square&logo=nginx)](http://76.13.5.227:8880/)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express.js-339933?style=flat-square&logo=express&logoColor=white)
