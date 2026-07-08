@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad-kora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="pitch-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="accent-kora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <!-- Shadows & Filters -->
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bg-grad-kora)" />
+  <rect x="0.5" y="0.5" width="799" height="499" rx="15.5" fill="none" stroke="#115e59" stroke-opacity="0.6" />
+
+  <!-- Window Header -->
+  <g transform="translate(0, 0)">
+    <circle cx="25" cy="25" r="6" fill="#ef4444" />
+    <circle cx="45" cy="25" r="6" fill="#f59e0b" />
+    <circle cx="65" cy="25" r="6" fill="#10b981" />
+    
+    <text x="100" y="30" fill="#0d9488" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">7jz Kora Pitch Management</text>
+    <path d="M230 25 L235 20 L235 30 Z" fill="#0d9488" transform="rotate(-90 232.5 25)" />
+    <text x="250" y="30" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Pitch Booking Scheduler</text>
+    
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#115e59" stroke-opacity="0.6" />
+  </g>
+
+  <!-- Left Sidebar (Courts / Arenas) -->
+  <g transform="translate(20, 70)">
+    <rect width="180" height="400" rx="12" fill="#042f2e" fill-opacity="0.8" stroke="#115e59" stroke-opacity="0.6" />
+    
+    <!-- Sidebar Title -->
+    <text x="15" y="30" fill="#14b8a6" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1">COURT MANAGER</text>
+    
+    <!-- Active Arena: Pitch A -->
+    <g transform="translate(10, 50)">
+      <rect width="160" height="60" rx="8" fill="#115e59" fill-opacity="0.5" stroke="#10b981" stroke-width="1.5" />
+      <text x="15" y="24" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Pitch A (5x5 Turf)</text>
+      <text x="15" y="42" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">120 EGP / Hour</text>
+      <circle cx="140" cy="30" r="5" fill="#10b981" />
+    </g>
+
+    <!-- Pitch B -->
+    <g transform="translate(10, 125)">
+      <rect width="160" height="60" rx="8" fill="#022c22" stroke="#115e59" />
+      <text x="15" y="24" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Pitch B (7x7 Turf)</text>
+      <text x="15" y="42" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">180 EGP / Hour</text>
+      <circle cx="140" cy="30" r="5" fill="#10b981" />
+    </g>
+
+    <!-- Court C -->
+    <g transform="translate(10, 200)">
+      <rect width="160" height="60" rx="8" fill="#022c22" stroke="#115e59" />
+      <text x="15" y="24" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Padel Court C</text>
+      <text x="15" y="42" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">150 EGP / Hour</text>
+      <circle cx="140" cy="30" r="5" fill="#f59e0b" />
+    </g>
+  </g>
+
+  <!-- Right Content Area (Schedule list) -->
+  <g transform="translate(220, 70)">
+    
+    <!-- Header with Date Selection -->
+    <text x="0" y="25" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">Schedule - Wednesday, July 8</text>
+    <rect x="420" y="5" width="140" height="28" rx="14" fill="#115e59" fill-opacity="0.6" stroke="#14b8a6" />
+    <text x="490" y="23" fill="#14b8a6" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Select Date</text>
+
+    <!-- Schedule Grid -->
+    <!-- Time Slot 1: Booked -->
+    <g transform="translate(0, 50)" filter="url(#card-shadow)">
+      <rect width="560" height="70" rx="10" fill="#0f172a" stroke="#115e59" stroke-opacity="0.8" />
+      <text x="20" y="40" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">05:00 PM</text>
+      
+      <!-- Booking Reservation Details -->
+      <g transform="translate(100, 10)">
+        <rect width="440" height="50" rx="8" fill="url(#pitch-grad)" stroke="#10b981" stroke-width="1.5" />
+        <!-- Ball Icon -->
+        <circle cx="25" cy="25" r="12" fill="#ffffff" />
+        <path d="M25 13 L25 37 M13 25 H37" stroke="#047857" stroke-width="1.5" />
+        <circle cx="25" cy="25" r="5" stroke="#047857" stroke-width="1.5" fill="none" />
+        
+        <text x="50" y="22" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Reserved: Ahmed El-Shenawy</text>
+        <text x="50" y="38" fill="#a7f3d0" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">Paid online via Paymob | Booking #7J-9821</text>
+      </g>
+    </g>
+
+    <!-- Time Slot 2: Available -->
+    <g transform="translate(0, 135)" filter="url(#card-shadow)">
+      <rect width="560" height="70" rx="10" fill="#0f172a" stroke="#115e59" stroke-opacity="0.8" />
+      <text x="20" y="40" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">06:00 PM</text>
+      
+      <!-- Booking Slot Available Button -->
+      <g transform="translate(100, 10)">
+        <rect width="440" height="50" rx="8" fill="#0f2922" fill-opacity="0.6" stroke="#0f766e" stroke-dasharray="6 4" />
+        <text x="220" y="30" fill="#2dd4bf" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">+ Click to Book This Slot</text>
+      </g>
+    </g>
+
+    <!-- Time Slot 3: Booked -->
+    <g transform="translate(0, 220)" filter="url(#card-shadow)">
+      <rect width="560" height="70" rx="10" fill="#0f172a" stroke="#115e59" stroke-opacity="0.8" />
+      <text x="20" y="40" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">07:00 PM</text>
+      
+      <!-- Booking Reservation Details -->
+      <g transform="translate(100, 10)">
+        <rect width="440" height="50" rx="8" fill="url(#pitch-grad)" stroke="#10b981" stroke-width="1.5" />
+        <circle cx="25" cy="25" r="12" fill="#ffffff" />
+        <path d="M25 13 L25 37 M13 25 H37" stroke="#047857" stroke-width="1.5" />
+        <circle cx="25" cy="25" r="5" stroke="#047857" stroke-width="1.5" fill="none" />
+        
+        <text x="50" y="22" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Reserved: Mahmoud Hassan</text>
+        <text x="50" y="38" fill="#a7f3d0" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">Paid cash at venue | Booking #7J-9825</text>
+      </g>
+    </g>
+
+    <!-- Time Slot 4: Available -->
+    <g transform="translate(0, 305)" filter="url(#card-shadow)">
+      <rect width="560" height="70" rx="10" fill="#0f172a" stroke="#115e59" stroke-opacity="0.8" />
+      <text x="20" y="40" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">08:00 PM</text>
+      
+      <g transform="translate(100, 10)">
+        <rect width="440" height="50" rx="8" fill="#0f2922" fill-opacity="0.6" stroke="#0f766e" stroke-dasharray="6 4" />
+        <text x="220" y="30" fill="#2dd4bf" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">+ Click to Book This Slot</text>
+      </g>
+    </g>
+  </g>
+</svg>

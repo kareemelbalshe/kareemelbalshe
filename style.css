@@ -228,6 +228,28 @@ header {
   border-radius: 10px 10px 0 0;
   border-bottom: 3px solid #000;
 }
+.project_image.private {
+  width: 100%;
+  height: 210px;
+  background: linear-gradient(135deg, #1f242d 0%, #111317 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 3px solid #000;
+  color: #94a3b8;
+}
+.project_image.private i {
+  font-size: 36px;
+  color: #ff5a5f;
+  margin-bottom: 8px;
+}
+.project_image.private span {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
 .project p {
   text-align: center;
   margin: 5px;

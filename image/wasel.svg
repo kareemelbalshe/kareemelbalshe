@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad-wasel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050b14" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <!-- Shadows & Filters -->
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bg-grad-wasel)" />
+  <rect x="0.5" y="0.5" width="799" height="499" rx="15.5" fill="none" stroke="#1e293b" stroke-opacity="0.8" />
+
+  <!-- Window Header -->
+  <g transform="translate(0, 0)">
+    <circle cx="25" cy="25" r="6" fill="#ef4444" />
+    <circle cx="45" cy="25" r="6" fill="#f59e0b" />
+    <circle cx="65" cy="25" r="6" fill="#10b981" />
+    
+    <text x="100" y="30" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500">Wasel Health Platform</text>
+    <path d="M230 25 L235 20 L235 30 Z" fill="#64748b" transform="rotate(-90 232.5 25)" />
+    <text x="250" y="30" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">Insurance &amp; Approvals Portal</text>
+    
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#1e293b" stroke-opacity="0.8" />
+  </g>
+
+  <!-- Left Sidebar (Nav) -->
+  <g transform="translate(20, 70)">
+    <rect width="180" height="400" rx="12" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" stroke-opacity="0.6" />
+    
+    <!-- App Logo Wasel -->
+    <g transform="translate(15, 20)">
+      <rect width="32" height="32" rx="8" fill="url(#primary-grad)" />
+      <!-- Medical cross icon -->
+      <path d="M16 10 V22 M10 16 H22" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+      <text x="42" y="22" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="800" letter-spacing="0.5">WASEL</text>
+    </g>
+
+    <!-- Nav Items -->
+    <!-- Item 1: Active -->
+    <g transform="translate(10, 80)">
+      <rect width="160" height="36" rx="6" fill="#1e293b" stroke="#0ea5e9" stroke-width="1" />
+      <text x="15" y="22" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Approvals Dashboard</text>
+    </g>
+    <!-- Item 2 -->
+    <g transform="translate(10, 125)">
+      <text x="15" y="22" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Patient Claims</text>
+    </g>
+    <!-- Item 3 -->
+    <g transform="translate(10, 170)">
+      <text x="15" y="22" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Insurance Contracts</text>
+    </g>
+    <!-- Item 4 -->
+    <g transform="translate(10, 215)">
+      <text x="15" y="22" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">User Management</text>
+    </g>
+    <!-- Item 5 -->
+    <g transform="translate(10, 260)">
+      <text x="15" y="22" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Audit Logs</text>
+    </g>
+  </g>
+
+  <!-- Right Content Area -->
+  <g transform="translate(220, 70)">
+    
+    <!-- Top Row: Metric Cards -->
+    <!-- Card 1 -->
+    <g transform="translate(0, 0)" filter="url(#card-shadow)">
+      <rect width="170" height="90" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" />
+      <text x="15" y="25" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">ACTIVE PATIENTS</text>
+      <text x="15" y="55" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">1,240</text>
+      <text x="15" y="75" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">↑ 12% this month</text>
+    </g>
+    
+    <!-- Card 2 -->
+    <g transform="translate(185, 0)" filter="url(#card-shadow)">
+      <rect width="170" height="90" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" />
+      <text x="15" y="25" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">PENDING APPROVALS</text>
+      <text x="15" y="55" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">48</text>
+      <rect x="15" y="68" width="140" height="4" rx="2" fill="#334155" />
+      <rect x="15" y="68" width="100" height="4" rx="2" fill="#f59e0b" />
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(370, 0)" filter="url(#card-shadow)">
+      <rect width="190" height="90" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" />
+      <text x="15" y="25" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">COMPLETED CLAIMS</text>
+      <text x="15" y="55" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">892</text>
+      <text x="15" y="75" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">98.5% Auto-approved</text>
+    </g>
+
+    <!-- Bottom Row: Recent Approvals Table -->
+    <g transform="translate(0, 110)" filter="url(#card-shadow)">
+      <rect width="560" height="290" rx="12" fill="#0f172a" fill-opacity="0.8" stroke="#1e293b" />
+      
+      <!-- Table Title -->
+      <text x="20" y="30" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Recent Approvals &amp; Claims</text>
+      <text x="540" y="30" fill="#3b82f6" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="end" cursor="pointer">View All</text>
+
+      <!-- Table Header -->
+      <g transform="translate(20, 50)">
+        <text x="0" y="15" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">PATIENT</text>
+        <text x="150" y="15" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">SERVICE</text>
+        <text x="280" y="15" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">INSURANCE</text>
+        <text x="420" y="15" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">STATUS</text>
+        <line x1="0" y1="25" x2="520" y2="25" stroke="#1e293b" />
+      </g>
+
+      <!-- Row 1 -->
+      <g transform="translate(20, 95)">
+        <text x="0" y="15" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Ahmed Mansour</text>
+        <text x="150" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">MRI Brain Scan</text>
+        <text x="280" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">AXA Egypt</text>
+        <!-- Status Badge: Approved -->
+        <rect x="420" y="0" width="70" height="20" rx="10" fill="#10b981" fill-opacity="0.1" />
+        <text x="455" y="14" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" text-anchor="middle">APPROVED</text>
+        <line x1="0" y1="30" x2="520" y2="30" stroke="#1e293b" />
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(20, 140)">
+        <text x="0" y="15" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Sarah Ibrahim</text>
+        <text x="150" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Dental Crowns</text>
+        <text x="280" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">MetLife</text>
+        <!-- Status Badge: Pending -->
+        <rect x="420" y="0" width="70" height="20" rx="10" fill="#f59e0b" fill-opacity="0.1" />
+        <text x="455" y="14" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" text-anchor="middle">PENDING</text>
+        <line x1="0" y1="30" x2="520" y2="30" stroke="#1e293b" />
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(20, 185)">
+        <text x="0" y="15" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Mostafa Mahmoud</text>
+        <text x="150" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Outpatient Consultation</text>
+        <text x="280" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Bupa Global</text>
+        <!-- Status Badge: Approved -->
+        <rect x="420" y="0" width="70" height="20" rx="10" fill="#10b981" fill-opacity="0.1" />
+        <text x="455" y="14" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" text-anchor="middle">APPROVED</text>
+        <line x1="0" y1="30" x2="520" y2="30" stroke="#1e293b" />
+      </g>
+      
+      <!-- Row 4 -->
+      <g transform="translate(20, 230)">
+        <text x="0" y="15" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600">Mariam Ali</text>
+        <text x="150" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Cardiology Checkup</text>
+        <text x="280" y="15" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Allianz</text>
+        <!-- Status Badge: Approved -->
+        <rect x="420" y="0" width="70" height="20" rx="10" fill="#10b981" fill-opacity="0.1" />
+        <text x="455" y="14" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" text-anchor="middle">APPROVED</text>
+      </g>
+    </g>
+  </g>
+</svg>

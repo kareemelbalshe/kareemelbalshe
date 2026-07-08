@@ -45,6 +45,88 @@
 
 ## 🚀 Featured Projects
 
+### 🛠️ .NET 9 Starter Kit
+> Production-grade, cloud-ready starter kit for building robust Web APIs and Blazor client apps with C# .NET 9.
+
+[![Repo](https://img.shields.io/badge/GitHub-dotnet--starter--kit-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/dotnet-starter-kit)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Features:**
+- 🧱 **Clean & Modular Architecture:** Built using Domain-Driven Design (DDD) principles to organize business rules, entities, and data models cleanly.
+- 👥 **Multitenancy Support:** Out-of-the-box tenant isolation, custom tenant resolver (header, host, or query), and schema/data separation.
+- ⚡ **Batteries Included:** Built-in JWT authentication, refresh tokens, role-based authorization, request caching (Redis/In-Memory), and background workers.
+- 🐳 **Docker-Compose Ready:** Fully containerized setup for PostgreSQL, Redis, and local development configurations.
+
+---
+
+### 📝 Exam App (.NET & Angular)
+> Full-stack online examination and testing portal with a C# backend API and Angular dashboard.
+
+[![Backend Repo](https://img.shields.io/badge/GitHub-ExamAppBackend-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/ExamAppBackend)
+[![Frontend Repo](https://img.shields.io/badge/GitHub-ExamAppFrontend-181717?style=flat-square&logo=github)](https://github.com/kareemelbalshe/ExamAppFrontend)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/-EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+
+**Features:**
+- 📝 **Exam Creator & Taker:** Interface for professors to create questions, set timers, and automatically grade student answers.
+- 📊 **Real-time Analytics:** Score tracking, progress tracking, and performance analysis charts on the student/professor dashboard.
+- 🔐 **Secure Execution:** Measures to block navigation and cheating triggers during exam execution.
+
+---
+
+### 🏠 Airbnb Clone — Full Stack
+> Scalable rental platform with real-time features and AI recommendations
+
+[![Backend](https://img.shields.io/badge/GitHub-Backend-181717?style=flat-square&logo=github)](https://github.com/Ahmed-Aladl/AirbnbBackend)
+[![Frontend](https://img.shields.io/badge/GitHub-Frontend-181717?style=flat-square&logo=github)](https://github.com/Ahmed-Aladl/AirbnbFrontend)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![SignalR](https://img.shields.io/badge/-SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+
+**Features:**
+- 🏡 Property listing, search, and booking system
+- 💬 Real-time chat with **SignalR**
+- 💳 Integrated payment system
+- 🤖 AI-powered recommendations
+- 🗃️ EF Core + SQL Server, clean architecture
+
+---
+
+### 🤖 MenuFlowX (AI-Powered Restaurant Growth OS) `[🔒 Private Codebase]`
+> Multi-tenant SaaS for restaurant management, digital menu scanning, and AI-driven description generation.
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Express](https://img.shields.io/badge/-Express.js-339933?style=flat-square&logo=express&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/-Google%20Gemini-8E75C2?style=flat-square&logo=googlegemini&logoColor=white)
+
+**Features:**
+- 🛒 **AI Description Generator:** Integrated with Google Gemini to automatically generate mouth-watering, bilingual descriptions (English & Arabic) for menu items.
+- 📸 **Hybrid OCR Pipeline:** Intelligent OCR parser converting physical menu photos into structured database items using Tesseract and Gemini Vision APIs.
+- ⚡ **POS & WebSockets:** Real-time ordering interface with kitchen ticket printing and order tracking.
+- 🔒 *Note: The source code and repository for this commercial SaaS are private.*
+
+---
+
+### 📦 Wasel Delivery `[🔒 Private Codebase]`
+> Courier delivery and logistics operations management platform with dynamic tracking and withdrawal controls.
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Features:**
+- 🔐 **Security & Auditing:** Role-based access control (RBAC), secure cookies, and withdrawal tracking rules.
+- 🔒 *Note: The source code and repository for this delivery platform are private.*
+
+---
+
 ### ⌚ Watches E-Commerce
 > Full-stack e-commerce platform with multilingual support
 
@@ -121,23 +203,6 @@
 - 🔄 State management with Redux
 
 ---
-
-### 🏠 Airbnb Clone — Full Stack
-> Scalable rental platform with real-time features and AI recommendations
-
-[![Backend](https://img.shields.io/badge/GitHub-Backend-181717?style=flat-square&logo=github)](https://github.com/Ahmed-Aladl/AirbnbBackend)
-[![Frontend](https://img.shields.io/badge/GitHub-Frontend-181717?style=flat-square&logo=github)](https://github.com/Ahmed-Aladl/AirbnbFrontend)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![SignalR](https://img.shields.io/badge/-SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-
-**Features:**
-- 🏡 Property listing, search, and booking system
-- 💬 Real-time chat with **SignalR**
-- 💳 Integrated payment system
-- 🤖 AI-powered recommendations
-- 🗃️ EF Core + SQL Server, clean architecture
 
 ---
 
