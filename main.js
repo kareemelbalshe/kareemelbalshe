@@ -40,7 +40,7 @@ const closeNav = () => {
 closeBtn.addEventListener('click', closeNav);
 
 const typed = new Typed(".multText", {
-    strings: ['Frontend Developer', 'MERN Stack Developer', 'Programmer', 'Designer', 'Problem Solver'],
+    strings: ['Full Stack Developer', 'MERN Stack Developer', '.NET Developer', 'Node.js Developer', 'React Developer', 'Angular Developer', 'Frontend Developer', 'Software Engineer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
